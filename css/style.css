@@ -125,7 +125,7 @@ nav .collapse ul li
 /* Start Header */
 header
 {
-    background: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
+    background-image: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
@@ -258,7 +258,7 @@ header .caption h1
 /* Start OverLay */
 .overlay
 {
-    background: linear-gradient(#0077ff93,#0077ff93), url(../img/counters-bg.jpg);
+    background-image: linear-gradient(#0077ff93,#0077ff93), url(../img/counters-bg.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     text-align: center;
@@ -399,7 +399,7 @@ header .caption h1
 /* Start Over-Swiper */
 .over-swiper
 {
-    background: linear-gradient(#0077ff93,#0077ff93), url(../img/overlay-bg.jpg);
+    background-image: linear-gradient(#0077ff93,#0077ff93), url(../img/overlay-bg.jpg);
     background-size: 100% 100%;
     background-attachment: fixed;
     display: flex !important;
@@ -524,7 +524,7 @@ header .caption h1
 
 .contact
 {
-    background: linear-gradient(#0077ff93,#0077ff93), url(../img/overlay-bg.jpg);
+    background-image: linear-gradient(#0077ff93,#0077ff93), url(../img/overlay-bg.jpg);
     background-size: 100% 100%;
     padding-block: 60px;
 }

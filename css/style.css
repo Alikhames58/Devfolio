@@ -9,7 +9,7 @@ body
 }
 ::-webkit-scrollbar
 {
-    width: 15px;
+    width: 10px;
 }
 ::-webkit-scrollbar-track
 {
@@ -125,13 +125,18 @@ nav .collapse ul li
 /* Start Header */
 header
 {
-    background-image: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
+    background-image: url(../img/hero-bg.jpg);
     background-size: cover;
     background-position: center center;
     height: 100vh;
     background-attachment: fixed;
 }
-
+.overlayout
+{
+    width: 100%;
+    height: 100%;
+    background-color: #00000056;
+}
 header .caption #element
 {
     font-size: 27px;
@@ -258,12 +263,18 @@ header .caption h1
 /* Start OverLay */
 .overlay
 {
-    background-image: linear-gradient(#0077ff93,#0077ff93), url(../img/counters-bg.jpg);
-    background-size: 100% 100%;
+    background-image: url(../img/counters-bg.jpg);
+    background-size:100% 100%;
     background-attachment: fixed;
     text-align: center;
     padding-block: 60px;
-    
+    position: relative;
+}
+.overlay-color
+{
+    width: 100%;
+    height: 100%;
+    background-color: #0077ff93;
 }
 .overlay-content 
 {

@@ -126,6 +126,12 @@ nav .collapse ul li
 header
 {
     background-image: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
+    -webkit-background-image: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
+    -moz-background-image: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
+    -o-background-image: linear-gradient(#0000005d, #0000005d), url(../img/hero-bg.jpg);
+    -o-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
     background-size: cover;
     background-position: center center;
     height: 100vh;

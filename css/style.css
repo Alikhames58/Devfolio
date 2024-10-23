@@ -137,6 +137,9 @@ li.dropdown:hover ul.dropdown-menu
     color: #000 !important;
     font-size: 0.9375rem !important;
 }
+.navbar-brand:focus, .navbar-brand:hover {
+    color: #fff;
+}
 .special-list:hover .drop-2
 {
     opacity: 1;

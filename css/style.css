@@ -324,8 +324,8 @@ header .caption h1
     background-image: -webkit-gradient(linear,left top, left bottom,from(#0077ff93),to(#0077ff93)), url(../img/counters-bg.jpg);
     background-image: -o-linear-gradient(#0077ff93,#0077ff93), url(../img/counters-bg.jpg);
     background-image: linear-gradient(#0077ff93,#0077ff93), url(../img/counters-bg.jpg);
-    background-size: 100% 100%;
-    background-attachment: fixed;
+    background-size: cover;
+    background-position: center center;
     text-align: center;
     padding-block: 3.75rem;
     
